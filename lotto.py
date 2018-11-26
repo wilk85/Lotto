@@ -52,8 +52,8 @@ def loopek():
         wyniki.sort()
 
     print()
-    print('Sprawdzam trafione liczby : ')
-    print()
+    print('Sprawdzam trafione liczby : ', end='')
+    print(len(sorted(set(listaInt) & set(wyniki))))
     print(sorted(set(listaInt) & set(wyniki)))
     print()
 
